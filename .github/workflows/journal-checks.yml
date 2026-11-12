@@ -1,4 +1,4 @@
-name:journal checks
+name: journal checks
 
 on:
   push:
