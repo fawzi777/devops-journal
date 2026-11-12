@@ -24,7 +24,7 @@ jobs:
         if: github.event_name == 'workflow_dispatch'
         env:
           REASON: ${{ github.event.inputs.reason }}
-        run: echo "Manual run reason : $REASON "
+        run: echo "Manual run reason: $REASON"
 
       - name: check readme.md
         run: test -f README.md
