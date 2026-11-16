@@ -8,4 +8,3 @@ rm delete files
 chmod changes files permissions
 mv moves file or rename it
 touch creates empty file
-
